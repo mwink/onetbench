@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v3.0.0a3 (Iveland) [ http://www.phoronix-test-suite.com/ ]-->
+<PhoronixTestSuite>
+  <SuiteInformation>
+    <Title>onetbench</Title>
+    <Version>1.0.0</Version>
+    <TestType>System</TestType>
+    <Description>Test roznych parametrow serwera</Description>
+    <Maintainer>Marcin Winkiewicz</Maintainer>
+  </SuiteInformation>
+  <Execute>
+    <Test>pts/compress-7zip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compress-gzip</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-imagemagick</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/build-linux-kernel</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/scimark2</Test>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Composite</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/openssl</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/apache</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/aio-stress</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/postmark</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/compilebench</Test>
+    <Mode>BATCH</Mode>
+  </Execute>
+  <Execute>
+    <Test>pts/tiobench</Test>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>ADD -b 3</Arguments>
+    <Description>Integer Add</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>COPY -b 3</Arguments>
+    <Description>Integer Copy</Description>
+  </Execute>
+  <Execute>
+    <Test>pts/ramspeed</Test>
+    <Arguments>SCALE -b 3</Arguments>
+    <Description>Integer Scale</Description>
+  </Execute>
+</PhoronixTestSuite>
