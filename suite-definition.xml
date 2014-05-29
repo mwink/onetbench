@@ -39,7 +39,7 @@
   </Execute>
   <Execute>
     <Test>pts/compilebench</Test>
-    <Mode>BATCH</Mode>
+    <Mode>COMPILE</Mode>
   </Execute>
   <Execute>
     <Test>pts/tiobench</Test>
