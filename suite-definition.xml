@@ -46,7 +46,7 @@
   </Execute>
   <Execute>
     <Test>pts/ramspeed</Test>
-    <Arguments>COPY -b 3</Arguments>
-    <Description>Integer Copy</Description>
+    <Arguments>AVERAGE -b 3</Arguments>
+    <Description>Average</Description>
   </Execute>
 </PhoronixTestSuite>
