@@ -46,17 +46,7 @@
   </Execute>
   <Execute>
     <Test>pts/ramspeed</Test>
-    <Arguments>ADD -b 3</Arguments>
-    <Description>Integer Add</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/ramspeed</Test>
     <Arguments>COPY -b 3</Arguments>
     <Description>Integer Copy</Description>
-  </Execute>
-  <Execute>
-    <Test>pts/ramspeed</Test>
-    <Arguments>SCALE -b 3</Arguments>
-    <Description>Integer Scale</Description>
   </Execute>
 </PhoronixTestSuite>
