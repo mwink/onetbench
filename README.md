@@ -14,3 +14,5 @@ Lista testow:
 - pts/tiobench
 - pts/ramspeed
 ----------- wersja 1.0 ---------
+
+* test
